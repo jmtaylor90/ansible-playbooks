@@ -1,0 +1,4 @@
+- git:
+    repo: ssh://git@github.com/jmtaylor90/suricata.git
+    dest: /home/jason/git/suricata
+    update: yes
