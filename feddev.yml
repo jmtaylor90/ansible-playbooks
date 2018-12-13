@@ -1,0 +1,5 @@
+- name: install fedora development packages
+  yum:
+    name: ['fedora-packager']
+  become: true
+  become_method: sudo

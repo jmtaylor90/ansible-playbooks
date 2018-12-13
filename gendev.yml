@@ -1,0 +1,7 @@
+- name: install generic development packages
+  yum:
+    name: ['git', 'mock', 'gcc', 'gcc-c++', 'automake', 'cmake', 'rpmdevtools']
+    state: latest
+    update_cache: yes
+  become: true
+  become_method: sudo

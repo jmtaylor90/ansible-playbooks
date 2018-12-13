@@ -1,0 +1,29 @@
+- git_config:
+    name: alias.ci
+    scope: global
+    value: commit
+
+- git_config:  
+    name: alias.st
+    scope: global
+    value: status
+
+- git_config:
+    name: core.editor
+    scope: global
+    value: vim
+
+- git_config:
+    name: user.email
+    scope: global
+    value: 'jtfas90@gmail.com'
+
+- git_config:    
+    name: user.name
+    scope: global
+    value: 'jason taylor'
+
+- git_config:
+    name: color.ui
+    value: auto
+    scope: global

@@ -1,0 +1,8 @@
+---
+- name: install the basics
+  yum:
+    name: ['vim', 'screen']
+    state: latest
+    update_cache: yes
+  become: true
+  become_method: sudo
