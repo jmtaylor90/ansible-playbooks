@@ -3,6 +3,8 @@
   hosts: localhost
   connection: local
   gather_facts: false
+  vars:
+    gitfqdn: gmail.com
   tasks:
     - include: basics.yml
     - include: gendev.yml

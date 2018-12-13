@@ -1,5 +1,9 @@
 - name: install fedora development packages
-  yum:
-    name: ['fedora-packager']
   become: true
   become_method: sudo
+  yum:
+    name: "{{ packages }}"
+    state: latest
+  vars:
+    packages:
+      - fedora-packager
