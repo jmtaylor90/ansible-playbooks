@@ -1,7 +1,16 @@
 - name: install generic development packages
-  yum:
-    name: ['git', 'mock', 'gcc', 'gcc-c++', 'automake', 'cmake', 'rpmdevtools']
-    state: latest
-    update_cache: yes
   become: true
   become_method: sudo
+  yum:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - git
+      - mock
+      - gcc
+      - gcc-c++
+      - rustc
+      - cargo
+      - automake
+      - cmake
+      - rpmdevtools
