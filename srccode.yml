@@ -1,19 +1,24 @@
 - git:
     repo: ssh://git@github.com/jmtaylor90/suricata.git
     dest: /home/jason/git/suricata
-    update: yes
+    update: no
 
 - git:
     repo: ssh://git@github.com/jmtaylor90/suricata-update.git
     dest: /home/jason/git/suricata-update
-    update: yes
+    update: no
 
 - git:
     repo: ssh://git@github.com/jmtaylor90/suricata-verify.git
     dest: /home/jason/git/suricata-verify
-    update: yes
+    update: no
+
+- git:
+    repo: ssh://git@github.com/jmtaylor90/libhtp.git
+    dest: /home/jason/git/suricata/libhtp
+    update: no
 
 - git:
     repo: ssh://git@github.com/jmtaylor90/ansible-playbooks.git
     dest: /home/jason/git/ansible-playbooks
-    update: yes
+    update: no
