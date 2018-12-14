@@ -11,3 +11,4 @@
     - include: feddev.yml
     - include: gitconfig.yml
     - include: srccode.yml
+    - include: suribld.yml
