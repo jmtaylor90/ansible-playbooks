@@ -32,3 +32,4 @@
       - automake
       - libtool
       - systemd
+      - lz4-devel
