@@ -33,3 +33,5 @@
       - libtool
       - systemd
       - lz4-devel
+      - python-yaml
+      - jq
