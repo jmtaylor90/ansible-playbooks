@@ -4,6 +4,16 @@
     update: yes
 
 - git:
+    repo: ssh://git@github.com/jmtaylor90/suricata-update.git
+    dest: /home/jason/git/suricata-update
+    update: yes
+
+- git:
+    repo: ssh://git@github.com/jmtaylor90/suricata-verify.git
+    dest: /home/jason/git/suricata-verify
+    update: yes
+
+- git:
     repo: ssh://git@github.com/jmtaylor90/ansible-playbooks.git
     dest: /home/jason/git/ansible-playbooks
     update: yes
