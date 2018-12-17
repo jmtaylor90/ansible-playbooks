@@ -22,3 +22,58 @@
     repo: ssh://git@github.com/jmtaylor90/ansible-playbooks.git
     dest: /home/jason/git/ansible-playbooks
     update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/suricata.git
+    dest: /home/jason/fedora/suricata
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/hyperscan.git
+    dest: /home/jason/fedora/hyperscan
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/colm.git
+    dest: /home/jason/fedora/colm
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/netsniff-ng.git
+    dest: /home/jason/fedora/netsniff-ng
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/p0f.git
+    dest: /home/jason/fedora/p0f
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/pam_radius.git
+    dest: /home/jason/fedora/pam_radius
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/python-idstools.git
+    dest: /home/jason/fedora/python-idstools
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/ragel.git
+    dest: /home/jason/fedora/ragel
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/tcllib.git
+    dest: /home/jason/fedora/tcllib
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/tcltls.git
+    dest: /home/jason/fedora/tcltls
+    update: no
+
+- git:
+    repo: https://src.fedoraproject.org/rpms/tcpflow.git
+    dest: /home/jason/fedora/tcpflow
+    update: no
