@@ -25,8 +25,8 @@
       - nss-softokn-devel
       - file-devel
       - jansson-devel
-      - GeoIP-devel
-      - python2-devel
+      - libmaxminddb-devel
+      - python3-devel
       - lua-devel
       - autoconf
       - automake
